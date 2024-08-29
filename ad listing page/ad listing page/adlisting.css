@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.noto-sans-<uniquifier> {
+                font-family: "Noto Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: < weight >;
+            }
+root{
+    --primary-color:#c026d3;
+}
+
+
+form {
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow-y: hidden;
+    box-shadow: -6px 7px 67px 0px rgba(46,138,118,0.94);
+    -webkit-box-shadow: -6px 7px 67px 0px rgba(46,138,118,0.94);
+    -moz-box-shadow: -6px 7px 67px 0px rgba(46,138,118,0.94);
+    border-radius: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+
+}
+h3{
+    font-family: "Noto Sans", sans-serif;
+
+
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 19px;
+}
+input[type="checkbox"]{
+    padding: 10px;
+    margin: 20px 20px 20px 15px;
+    border: black;
+
+
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+select {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}.label{
+    display: flex;
+ }
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 39%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,21 @@
+/*table for feedback*/
+
+CREATE TABLE feedback
+(
+    feedback_ID INT AUTO_INCREMENT PRIMARY KEY,
+    User_ID varchar(15) not null,
+    rate varchar(5) not null,
+    feedback_comment varchar(100) not null,
+    user_name varchar(50) not null,
+    email varchar(50) not null
+);
+
+
+INSERT INTO feedback (User_ID, rate, feedback_comment, user_name, email) VALUES
+('user1', '4', 'Great service, will come back again!', 'John Doe', 'john@example.com'),
+('user2', '5', 'Excellent experience, highly recommended.', 'Jane Smith', 'jane@example.com'),
+('user3', '3', 'Good, but room for improvement.', 'Mike Johnson', 'mike@example.com'),
+('user4', '2', 'Average service, nothing special.', 'Emily Brown', 'emily@example.com'),
+('user5', '1', 'Poor service, would not recommend.', 'David Wilson', 'david@example.com');
+
+

@@ -1,0 +1,379 @@
+/* body css */
+body {
+    background: linear-gradient(to right, #0095ff, #275dff);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+/*Header*/
+nav {
+    width: 100%; 
+    height: 80px; 
+    padding: 0 20px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background: linear-gradient(to right, #0114aa, #0159ac); 
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center; 
+    z-index: 100; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* header image */
+.logo img {
+    width: 230px;
+    height: auto;
+    cursor: pointer; 
+}
+
+/* header left side elements */
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+/* header left side elements */
+.right-side {
+    list-style: none; 
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+    width: auto;
+}
+
+/* header links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+/* header links text css */
+.nav-links li a {
+    color: white; 
+    font-size: 18px;
+    font-family:'Calibri';
+    font-weight: bold;
+    text-decoration: none; 
+    padding: 10px 15px; 
+    border-radius: 18px; 
+    transition:0.3s; 
+}
+
+/* header links hover effects color change */
+.nav-links li a:hover {
+    background-color: #000f6e;
+    color: #ffaa00; 
+}
+
+/* different design to POST AD button */
+.right-side li a:not(.postAD-link) {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+    font-family:Calibri;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 18px; 
+    transition:0.3s; 
+}
+
+/* POST AD button hover effect */
+.right-side li a:not(.postAD-link):hover {
+    background-color: #000f6e;
+    color: #ffaa00; 
+}
+
+/* POST AD button css */
+.postAD-link {
+    background-color: #ffb700; 
+    color: rgb(110, 53, 0);
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s;
+    margin-right: 30px; 
+}
+
+/* POST AD link hover effect */
+.postAD-link:hover {
+    background-color: #ff8d02; 
+    color: rgb(255, 255, 255);
+}
+
+.offer-titles {
+    text-align: center; /* Center align the text */
+}
+
+.offer-titles h1 {
+    margin-top: 120px;
+    font-size: 40px;
+    font-family: Tahoma;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #00143c;
+}
+
+/* card background css */
+.card-background{
+    padding: 50px;
+    display: flex;
+
+    
+}
+
+/* CRC Card CSS */
+.card{
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #0114aa, #0e005c); 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 340px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    margin-top: -40px;
+    margin-left: 190px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Card Content Alignement */
+.card-content {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* offer type css card 1 */
+.offer-type1 h2{
+    background-color: #f0a500;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* offer type css card 1 hover */
+.offer-type1 h2:hover{
+    background-color: #2700d2;
+    color: rgb(255, 174, 0);
+}
+
+/* offer type css card 2 */
+.offer-type2 h2{
+    background-color: #818181;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+/* offer type css card 2 hover*/
+.offer-type2 h2:hover{
+    background-color: #0835ff;
+    color: rgb(192, 192, 192);
+}
+
+/* plan offers css */
+.plan-Offers h3{
+    font-family: sans-serif;
+    color: #02ffdd;
+}
+
+.plan-Offers p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+/* description css */
+.offer-description h3{
+    font-family: sans-serif;
+    color: #02ffdd;
+}
+
+.offer-description p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+/* deadline css */
+.offer-deadline h3{
+    font-family: sans-serif;
+    color: #02ffdd;
+}
+
+.offer-deadline p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+/* PROMOCODE css */
+.promocode-card1 h2{
+    background-color: #ff0000;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    transition: 0.3s;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.promocode-card2 h2{
+    background-color: #ff0000;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    transition: 0.3s;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+/* CRC Card hover effect */
+.card:hover{
+    transform: translateY(-10px);
+}
+
+/* feedback area */
+.feedback a h2{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 8px;
+    background-color: rgb(10, 0, 200);
+    color: white;
+    border-radius: 40px;
+    height: 100%;
+    width: 240px;
+    margin: auto;
+    margin-top: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* feedback text */
+.feedback a h2:hover{
+    transform: translateY(-17px);
+    background-color: #020090;
+    color: rgb(255, 170, 0);
+    
+}
+
+/* footer container box */
+.footer {
+    padding: 20px;
+    background: linear-gradient(to left, #00143c, #000b5ae2); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* footer logo image css */
+img[alt~="f-logo"]
+{
+    width: 200px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+/* footer row items  */
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* remove extra border for about us */
+.footer-aboutUs {
+    border-right: none;
+}
+
+.footer-logo, .footer-followUs, .footer-helpSup, .footer-aboutUs {
+    padding: 10px 20px; 
+    flex: 1; 
+    text-align: center;
+}
+
+/* footer right side border color */
+.footer-logo, .footer-followUs, .footer-helpSup {
+    border-right: 1px solid #0077ff; 
+}
+
+.footer-helpSup ul, .footer-followUs ul, .footer-aboutUs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px; 
+    text-align: center;
+}
+
+.footer-helpSup ul li:first-child,
+.footer-followUs ul li:first-child,
+.footer-aboutUs ul li:first-child {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+.footer-helpSup ul li a{
+    margin-left: 100px;
+}
+
+.footer-aboutUs ul li a{
+    margin-left: 122px;
+}
+
+.footer-helpSup ul li a, .footer-aboutUs ul li a {
+    text-decoration: none;
+    color: #d1d1d1; 
+    transition: color 0.3s ease-in-out; 
+    display: flex;
+    align-items: center; 
+}
+
+.footer-helpSup ul li a:hover,
+.footer-aboutUs ul li a:hover {
+    color: #f0a500; 
+}
+
+.footer-followUs ul li:first-child {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.f_uprow-links, .f_downrow-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.f_uprow-links li a img, .f_downrow-links li a img {
+    width: 40px;
+    height: 40px; 
+}
+
+.right-reserved {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 2px solid #505050;
+    color: #d1d1d1;
+    font-size: 18px;
+}
