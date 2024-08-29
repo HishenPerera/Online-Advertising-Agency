@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #325bff, #0048ff);
+}
+
+.upper-section {
+  background: linear-gradient(to right, #002ad4, #1a009c);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.logo img {
+  width: 230px; 
+  height: 100%;
+}
+
+.dashboard-name h2{
+  font-size: 30px;
+  font-family:sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #00143c;
+}
+
+.admin-status ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.admin-username {
+  margin-right: 15px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.admin-image {
+  width: 40px;
+  height: 40px;
+  background-color: #fff; 
+  border-radius: 50%; 
+}
+
+.logout-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f00; 
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.logout-button:hover {
+  background-color: rgb(131, 0, 0);
+}
+
+.main-content {
+  display: flex;
+}
+
+.sidebar {
+  background: linear-gradient(to right, #002ad4, #1a009c);
+  width: 250px;
+  max-height: 100vh;
+  height: 100%;
+  border-top-right-radius: 50px; 
+  border-bottom-right-radius: 50px;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar ul li {
+  list-style: none;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 52px; 
+  text-decoration: none;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px; 
+  font-weight: bold;
+  text-align: center; 
+  line-height: 1.5; 
+  transition: 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ff9900;
+  color: #1b0390;
+  border-top-right-radius: 50px; 
+  border-bottom-right-radius: 50px;
+}
+
+.page-content {
+  padding: 20px;
+  justify-content: center;
+  margin: auto;
+}
+
+.mOffers-title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    color: white;
+    text-shadow: 2px 2px 4px #00143c;
+}
+
+.manage-offers-section {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
+
+.offers-table-container {
+    overflow-x: auto;
+    padding: 20px;
+    background: linear-gradient(to right, #002ad4, #1a009c);
+    border-radius: 20px;
+    margin-bottom: 300px;
+}
+
+.offers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.offers-table th, .offers-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.offers-table th {
+    background-color: #f2f2f2;
+}
+
+.offers-table td {
+    background-color: #fff;
+}
+
+.offers-table td:last-child {
+    text-align: center;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.edit-button {
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+}
+
+.update-button:hover, .delete-button:hover {
+    opacity: 0.8;
+}
+

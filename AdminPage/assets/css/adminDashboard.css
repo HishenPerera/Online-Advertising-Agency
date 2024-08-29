@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #325bff, #0048ff);
+}
+
+.upper-section {
+  background: linear-gradient(to right, #002ad4, #1a009c);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.logo img {
+  width: 230px; 
+  height: 100%;
+}
+
+.dashboard-name h2{
+  font-size: 30px;
+  font-family:sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #00143c;
+}
+
+.admin-status ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.admin-username {
+  margin-right: 15px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logout-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f00; 
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.logout-button:hover {
+  background-color: rgb(131, 0, 0);
+}
+
+.main-content {
+  display: flex;
+}
+
+.sidebar {
+  background: linear-gradient(to right, #002ad4, #1a009c);
+  width: 250px;
+  max-height: 100vh;
+  height: 100%;
+  border-top-right-radius: 50px; 
+  border-bottom-right-radius: 50px;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar ul li {
+  list-style: none;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 52px; 
+  text-decoration: none;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px; 
+  font-weight: bold;
+  text-align: center; 
+  line-height: 1.5; 
+  transition: 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ff9900;
+  color: #1b0390;
+  border-top-right-radius: 50px; 
+  border-bottom-right-radius: 50px;
+}
+
+.page-content {
+  padding: 20px;
+  justify-content: center;
+  margin: auto;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 2px 2px 4px #00143c;
+}
+
+.dashboard-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.stat-box {
+  background: linear-gradient(to right, #002ad4, #1a009c);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 20px;
+  color: #ff9900;
+}
