@@ -1,6 +1,6 @@
 # AdHandiya
 Y1S2 IT1100 - Internet Web Technologies Module Group Project
-# Topic - Online Advertising Agency
+## Topic - Online Advertising Agency
 
 Developed using HTML, CSS, Javascript, PHP and MYSQL
 
